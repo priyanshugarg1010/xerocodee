@@ -19,11 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <link rel="shortcut icon" href={favicon} /> */}
         <link rel="icon" href="/metalogo.png" sizes="any" />
-        {/* <link rel="shortcut icon" href="../images/icons/favicon.ico" /> */}
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} id="body">
         <>
           <div className="flex justify-center ">
             <Navbar />
