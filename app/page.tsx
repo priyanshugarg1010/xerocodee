@@ -1,4 +1,3 @@
-import Navbar from "./ui/navbar/navbar";
 import Footer from "./ui/Footer";
 import NewsCard from "./ui/news/NewsCard";
 import Main from "./ui/Main";
@@ -13,9 +12,6 @@ import Ways from "./ui/ways/Ways";
 const page = () => {
   return (
     <>
-      <div className="flex justify-center ">
-        <Navbar />
-      </div>
       <div className="">
         <Main />
       </div>
